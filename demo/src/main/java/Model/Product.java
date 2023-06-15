@@ -13,4 +13,16 @@ public class Product {
     private double price;
     private String size;
     private int stock;
+
+    public Product(String id, String name, String category, int price, String size, int stock) {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.price = price;
+        this.size = size;
+        this.stock = stock;
+    }
+
+    public Product() {
+    }
 }
